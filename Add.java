@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class SumOfTwoNumbers {
+public class SumAndMultiplication {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -13,9 +13,14 @@ public class SumOfTwoNumbers {
         int sum = num1 + num2;
         System.out.println("The sum of " + num1 + " and " + num2 + " is: " + sum);
 
+
 	int subtract = num1 - num2;
         System.out.println("The subtraction of " + num1 + " and " + num2 + " is: " + subtract);
+
+         int product = num1 * num2;
+        System.out.println("The product of " + num1 + " and " + num2 + " is: " + product);
 
         scanner.close();
     }
 }
+
