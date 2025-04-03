@@ -1,19 +1,22 @@
 import java.util.Scanner;
 
-public class Multiplication {
+public class SumAndMultiplication {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter the first number: ");
-        double num1 = scanner.nextDouble();
+        int num1 = scanner.nextInt();
 
         System.out.print("Enter the second number: ");
-        double num2 = scanner.nextDouble();
+        int num2 = scanner.nextInt();
 
-        double product = num1 * num2;
+        int sum = num1 + num2;
+        System.out.println("The sum of " + num1 + " and " + num2 + " is: " + sum);
 
-        System.out.println("The multiplication of " + num1 + " and " + num2 + " is: " + product);
+         int product = num1 * num2;
+        System.out.println("The product of " + num1 + " and " + num2 + " is: " + product);
 
         scanner.close();
     }
 }
+
